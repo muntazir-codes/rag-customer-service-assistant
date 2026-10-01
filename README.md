@@ -2,15 +2,6 @@
 
 A privacy-first AI customer service chatbot powered by a **local Large Language Model (LLM)**. It runs fully offline on your own machine, with no paid APIs and no customer data leaving your computer.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LLM](https://img.shields.io/badge/LLM-Local-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
-<!-- Add a screenshot or demo GIF here. This is the most important line in the README. -->
-<!-- ![Demo](assets/demo.gif) -->
-
----
 
 ## 📌 Overview
 
@@ -31,7 +22,7 @@ Many businesses want AI-powered support but cannot send customer data to third-p
 - 🧠 Custom system prompt tuned for polite, accurate customer service replies
 - 🔁 Conversation memory so the bot remembers earlier messages
 - ⚙️ Easy to switch models (Qwen, Gemma, or any model your runtime supports)
-- [ADD / REMOVE FEATURES to match your real code]
+
 
 ---
 
@@ -101,7 +92,7 @@ pip install -r requirements.txt
 ### 4. Download the model
 
 ```bash
-ollama pull [model-name]
+ollama pull [gamma 4e4v]
 ```
 
 ### 5. Run the chatbot
@@ -156,7 +147,7 @@ You can customize the assistant by editing:
 - Add multi-language support (for example Urdu and English)
 - Add response quality evaluation and logging
 
-<!-- Only list ideas you actually plan to do. -->
+
 
 ---
 
